@@ -1,1 +1,1 @@
-A pomodor app built with React Hooks.
+A pomodoro app built with React Hooks.
