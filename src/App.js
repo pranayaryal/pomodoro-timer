@@ -1,10 +1,12 @@
 import React, { Component, useState, useEffect, useRef } from 'react';
 import './App.css';
+import ReactGA from 'react-ga'
 
 import TimeDisplay from './components/TimeDisplay'
 
 const App = props => {
 
+    ReactGA.initialize('UA-58522655-3')
     Notification.requestPermission().then(result => {
       console.log(result)
     })
