@@ -93,7 +93,7 @@ const App = props => {
               <a className="button is-warning is-large" onClick={() => startTicking(5)}>SHORT BREAK</a>
             </div>
             <div className="column">
-              <a className="button is-info is-large is-active" onClick={() => startTicking(.1)}>LONG BREAK</a>
+              <a className="button is-info is-large is-active" onClick={() => startTicking(10)}>LONG BREAK</a>
             </div>
           </div>
         </div>
